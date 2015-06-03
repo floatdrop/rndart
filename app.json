@@ -1,0 +1,7 @@
+{
+  "name": "Google Art as a service",
+  "description": "Provides random marvelous pictures",
+  "repository": "https://github.com/floatdrop/gaaas",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static", "google art"]
+}
