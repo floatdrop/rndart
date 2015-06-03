@@ -1,5 +1,5 @@
 {
-  "name": "gaaas",
+  "name": "rndart",
   "version": "1.0.0",
   "description": "Google Art as a service",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatdrop/gaaas"
+    "url": "https://github.com/floatdrop/rndart"
   },
   "keywords": [
     "node",
