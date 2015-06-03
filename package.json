@@ -11,7 +11,7 @@
     "pick-random": "^1.0.1"
   },
   "engines": {
-    "node": "0.12.2"
+    "iojs": "2.x"
   },
   "repository": {
     "type": "git",
