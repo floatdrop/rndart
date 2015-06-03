@@ -7,7 +7,25 @@ var pickRandom = require('pick-random');
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
-    response.redirect(pickRandom(imax)[0].image);
+    var url = pickRandom(imax)[0].image;
+    response.send(`
+<html>
+    <style>
+html {
+    background: url(${url}) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    </style>
+    <body/>
+</html>`);
+});
+
+app.get('/redirect', function(request, response) {
+    var url = pickRandom(imax)[0].image;
+    response.redirect(url);
 });
 
 app.listen(app.get('port'), function() {
